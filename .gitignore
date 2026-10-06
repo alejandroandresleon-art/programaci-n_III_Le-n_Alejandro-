@@ -1,0 +1,244 @@
+# ============================================================
+# Node.js / React / NestJS / TypeScript
+# ============================================================
+
+# Dependencias
+node_modules/
+**/node_modules/
+
+# Package managers
+.npm/
+.yarn/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/install-state.gz
+.yarn/build-state.yml
+
+# Lockfiles (descomenta si NO quieres versionarlos)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+
+# ============================================================
+# Build / Compilación
+# ============================================================
+
+dist/
+**/dist/
+
+build/
+**/build/
+
+out/
+**/out/
+
+coverage/
+**/coverage/
+
+.next/
+**/.next/
+
+.nuxt/
+**/.nuxt/
+
+.turbo/
+**/.turbo/
+
+.vite/
+**/.vite/
+
+.cache/
+**/.cache/
+
+.tmp/
+**/.tmp/
+
+temp/
+**/temp/
+
+
+# ============================================================
+# TypeScript
+# ============================================================
+
+*.tsbuildinfo
+**/*.tsbuildinfo
+
+
+# ============================================================
+# React / Next.js
+# ============================================================
+
+.vercel/
+**/.vercel/
+
+storybook-static/
+**/storybook-static/
+
+
+# ============================================================
+# NestJS
+# ============================================================
+
+.nest/
+**/.nest/
+
+
+# ============================================================
+# Variables de entorno / Secrets
+# ============================================================
+
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Archivos de entorno que SÍ pueden versionarse
+!.env.example
+!.env.template
+!.env.sample
+
+
+# ============================================================
+# Logs
+# ============================================================
+
+logs/
+**/logs/
+
+*.log
+**/*.log
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+# ============================================================
+# Testing
+# ============================================================
+
+.nyc_output/
+**/.nyc_output/
+
+junit.xml
+**/junit.xml
+
+test-results/
+**/test-results/
+
+
+# ============================================================
+# IDE / Editores
+# ============================================================
+
+.vscode/*
+**/.vscode/*
+
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+.idea/
+**/.idea/
+
+*.iml
+*.ipr
+*.iws
+
+
+# ============================================================
+# Sistema operativo
+# ============================================================
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+
+# ============================================================
+# Archivos temporales / Editor
+# ============================================================
+
+*.swp
+*.swo
+*.swn
+
+*.tmp
+*.temp
+
+*.bak
+*.backup
+
+*.orig
+
+
+# ============================================================
+# Archivos generados
+# ============================================================
+
+*.generated.ts
+**/*.generated.ts
+
+*.generated.js
+**/*.generated.js
+
+
+# ============================================================
+# Bases de datos locales
+# ============================================================
+
+*.sqlite
+*.sqlite3
+*.db
+
+# Si utilizas Prisma
+prisma/*.db
+prisma/*.db-journal
+
+
+# ============================================================
+# Docker
+# ============================================================
+
+.docker/
+**/.docker/
+
+# Archivos locales de Docker
+docker-compose.override.yml
+docker-compose.local.yml
+
+
+# ============================================================
+# Misc
+# ============================================================
+
+*.pid
+*.seed
+*.pid.lock
+
+report/
+**/report/
+reports/
+**/reports/
+tmp/
+**/tmp/
+EOF
+**/EOF
