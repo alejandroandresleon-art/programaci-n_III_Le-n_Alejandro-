@@ -2,7 +2,7 @@
 
 ## 👨‍💻 Autor
 
-**Nombre:** Alejandro Leon
+**Nombre:** Alejandro Andres Leon Loza
 
 ---
 
