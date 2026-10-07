@@ -2,7 +2,7 @@
 
 ## 👨‍💻 Autor
 
-**Nombre:** Alejooo
+**Nombre:** Alejandro Leon
 
 ---
 
