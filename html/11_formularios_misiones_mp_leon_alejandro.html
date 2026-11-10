@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Registro de Propiedades y Visitas</title>
+</head>
+<body>
+
+    <header>
+        <h1>Inmobiliaria Vista Real</h1>
+        <p>Registro de operaciones y visitas</p>
+    </header>
+    <hr>
+    <main>
+        <form action="#"
+              method="get"
+              id="registro-inmuebles">
+
+            <fieldset>
+                <legend>Información de la Propiedad</legend>
+
+                <label for="codigo">
+                    Código de propiedad:
+                </label>
+
+                <input type="text"
+                       id="codigo"
+                       name="codigo"
+                       placeholder="PROP-001"
+                       maxlength="10"
+                       required>
+
+                <br><br>
+
+                <label for="responsable">
+                    Agente asignado:
+                </label>
+
+                <select id="responsable"
+                        name="responsable"
+                        required>
+
+                    <option value="">
+                        Selecciona un agente
+                    </option>
+
+                    <option value="carlos">
+                        Carlos Mendoza
+                    </option>
+
+                    <option value="ana">
+                        Ana Gómez
+                    </option>
+
+                    <option value="luis">
+                        Luis Torres
+                    </option>
+
+                </select>
+
+                <br><br>
+
+                <label for="planeta">
+                    Zona o Sector:
+                </label>
+
+                <input type="text"
+                       id="planeta"
+                       name="planeta"
+                       placeholder="Ej. Sector Norte"
+                       required>
+
+                <br><br>
+
+                <label for="fecha">
+                    Fecha de visita:
+                </label>
+
+                <input type="date"
+                       id="fecha"
+                       name="fecha"
+                       required>
+
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Características</legend>
+
+                <p>Prioridad de venta / Alquiler:</p>
+
+                <input type="radio"
+                       id="alta"
+                       name="prioridad"
+                       value="alta"
+                       required>
+
+                <label for="alta">Alta</label>
+
+                <input type="radio"
+                       id="media"
+                       name="prioridad"
+                       value="media">
+
+                <label for="media">Media</label>
+
+                <input type="radio"
+                       id="baja"
+                       name="prioridad"
+                       value="baja">
+
+                <label for="baja">Baja</label>
+
+                <br><br>
+
+                <label for="riesgo">
+                    Nivel de demanda (1 a 10):
+                </label>
+
+                <input type="number"
+                       id="riesgo"
+                       name="riesgo"
+                       min="1"
+                       max="10"
+                       value="5">
+
+                <p>Amenidades incluidas:</p>
+
+                <input type="checkbox"
+                       id="nave"
+                       name="recursos"
+                       value="piscina">
+
+                <label for="nave">
+                    Piscina propia
+                </label>
+
+                <br>
+
+                <input type="checkbox"
+                       id="droides"
+                       name="recursos"
+                       value="estacionamiento">
+
+                <label for="droides">
+                    Estacionamiento techado
+                </label>
+                <br>
+
+                <input type="checkbox"
+                       id="equipo"
+                       name="recursos"
+                       value="seguridad">
+
+                <label for="equipo">
+                    Seguridad 24/7
+                </label>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Descripción del Inmueble</legend>
+
+                <label for="descripcion">
+                    Observaciones principales:
+                </label>
+
+                <br>
+
+                <textarea id="descripcion"
+                          name="descripcion"
+                          rows="5"
+                          cols="45"
+                          maxlength="500"
+                          placeholder="Describe la propiedad..."
+                          required></textarea>
+
+            </fieldset>
+
+            <br>
+
+            <button type="submit">
+                Registrar propiedad
+            </button>
+
+            <button type="reset">
+                Limpiar datos
+            </button>
+
+        </form>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>
+            <small>
+                Inmobiliaria Vista Real - 2026
+            </small>
+        </p>
+    </footer>
+
+</body>
+</html>
