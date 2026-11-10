@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas en HTML</title>
+</head>
+<body>
+    <h1>Tablas en HTML</h1>
+    <table id="Personajes_star_wars" alt="Personajes de Star Wars" border="1">
+        <caption>Tabla de Personajes de Star Wars</caption>
+        <tr>
+            <th colspan="3">Personaje de Star Wars</th>
+        </tr>
+        <tr>
+            <th>Personajes</th>
+            <th>Planeta</th>
+            <th>Afiliación</th>
+        </tr>
+        <tr>
+            <td>Luck Skywalker </td>
+            <td rowSpan="2">Tatooine</td>
+            <td>Jedi</td>
+        </tr>
+        <tr>
+            <td>Darth Vader</td>
+            <td>Sith</td>
+        </tr>
+        <tr>
+            <td>Yoda</td>
+            <td>Desconocido</td>
+            <td>Jedi</td>
+        </tr>
+    </table>
+
+    <table id="Misiones" alt="Misiones de Star Wars" border="1">
+        <caption>Tabla de Misiones de Star Wars</caption>
+        <thead>
+            <tr>
+                <th>Caballero Jedi</th>
+                <th>Tipo de Mision</th>
+                <th>Vehiculo</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr>
+                <td>Luke Skywalker</td>
+                <td>Exploratoria</td>
+                <td>R2D2</td>
+            </tr>
+            <tr>
+                <td>Anakin</td>
+                <td>Rescate</td>
+                <td>C3PO</td>
+            </tr>
+            <tr>
+                <td>Obi-Wan Kenobi</td>
+                <td>Rescate</td>
+                <td>BBB</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th COLSPAN="2"> Total de Misiones</th>
+                <td>3</td>
+            </tr>
+        </tfoot>
+      
+    </table>
+    
+</body>
+</html>
