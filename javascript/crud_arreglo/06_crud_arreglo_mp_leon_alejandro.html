@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Inmobiliario</title>
+    <script src="06_crud_arreglo_mp_leon_alejandro.js" defer></script>
+</head>
+<body>
+
+    <h1>Registro Inmobiliario</h1>
+
+    <h2 id="tituloFormulario">Registro Propiedad</h2>
+
+    <form id="formulario">
+
+        <input type="text" id="nombre" placeholder="Nombre de la propiedad">
+
+        <select id="zona">
+            <option value="Norte">Norte</option>
+            <option value="Centro">Centro</option>
+            <option value="Sur">Sur</option>
+        </select>
+
+        <select id="estado">
+            <option value="Disponible">Disponible</option>
+            <option value="Vendida">Vendida</option>
+            <option value="En negociación">En negociación</option>
+        </select>
+
+        <button type="submit" id="guardar">Agregar</button>
+
+        <button type="button" id="cancelar" hidden>Cancelar</button>
+
+    </form>
+
+    <h2>Propiedades Registradas</h2>
+
+    <h2 id="cantidad">Cantidad: 0</h2>
+
+    <div id="contenedor"></div>
+
+</body>
+</html>
